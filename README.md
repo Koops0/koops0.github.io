@@ -40,7 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 SOURCES:
 VantaJS
 THREE
-Google Fonts
 Inter 4.0
-Cageroll
 Excelorate

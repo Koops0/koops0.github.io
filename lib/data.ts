@@ -67,24 +67,59 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "TekkenAI",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I'm currently planning the overall design of this project, but this will be an application that will help players improve their Tekken skills via computer vision.",
+    tags: ["Python", "OpenCV"],
     //imageUrl:
   },
   {
-    title: "rmtDev",
+    title: "Aero Copilot",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A document processing system backed by AI that streamlines and corrects technical documents. Winner of the Toronto NASA Space Apps Challenge 2023 and a Global Finalist Honorable Mention.",
+    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "Amazon Web Services", "OpenAI"],
     //imageUrl:
   },
   {
-    title: "Word Analytics",
+    title: "ChessHub",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A public web app that allows players to play chess online, play against a CPU and solve daily puzzles.",
+      tags: ["HTML", "CSS", "JavaScript", "Java", "Google Cloud Platform"],
+    //imageUrl:
+  },
+  {
+    title: "GPSXE - Go PlayStation Emulator",
+    description:
+      "An emulator that can play PlayStation games, built with Go. Currently working on the GPU and audio emulation.",
+    tags: ["Go", "OpenGL"],
+    //imageUrl:
+  },
+  {
+    title: "TalkHub",
+    description:
+      "A spam detector that uses Naive Bayes to classify emails as spam or not spam. Achieved 90% accuracy on the test set.",
+    tags: ["HTML", "CSS", "JavaScript", "Java"],
+    //imageUrl:
+  },
+  {
+    title: "Spam Detector",
+    description:
+      "A spam detector that uses Naive Bayes to classify emails as spam or not spam. Achieved 90% accuracy on the test set.",
+    tags: ["HTML", "CSS", "JavaScript", "Java"],
+    //imageUrl:
+  },
+  {
+    title: "EDANBA",
+    description:
+      "An exploratory data analysis about NBA players in the 2022-2023 season.",
+    tags: ["Jupyter Notebook", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],
+    //imageUrl:
+  },
+  {
+    title: "Terraria Item Guru",
+    description:
+      "A CRUD application that allows players to look at Terraria weapons and their stats.",
+    tags: ["Java"],
     //imageUrl:
   },
 ] as const;

@@ -1,10 +1,14 @@
 "use client";
 import React from "react";
 import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
 
 export default function About() {
     return(
-        <section className="text-center leading-8 mb-20">
+        <motion.section className="text-center leading-8 mb-20"
+        initial={{opacity:0, y:100}}
+        animate={{opacity:1, y:0}}
+        transition={{delay:0.175}}>
             <SectionHeading>About Me</SectionHeading>
             <p className="text-3xl text-white font-inter font-medium mx-16">
             As a third-year undergraduate student pursuing a degree in Computer Science with a minor in 
@@ -16,6 +20,6 @@ export default function About() {
             I'm eager to explore exciting opportunities in robotics, software engineering, or ML/AI as a co-op intern. 
             Committed to collaboration and staying abreast of industry trends, I'm driven to contribute to technological 
             advancements and eager to connect with professionals.</p>
-        </section>
+        </motion.section>
     )
 }
