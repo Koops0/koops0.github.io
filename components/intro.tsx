@@ -42,19 +42,20 @@ export default function Intro(){
             initial={{opacity:0, x:0, y:0}}
             animate={{opacity:1, x:256, y:-56}}>
                 <Link href = "#contact"
-                className="bg-white text-gray-950 font-inter px-7 py-3 flex items-center gap-2 rounded-full">
-                    Contact Me <BsArrowDown/>
+                className="group bg-white text-gray-950 font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    Contact Me <BsArrowDown className="opacity-60 group-hover:translate-y-1 transition"/>
                 </Link>
-                <a className="bg-gray-950 text-white font-inter px-7 py-3 flex items-center gap-2 rounded-full">
-                    Resume <HiDownload/>
-                </a>
+                <Link href="https://drive.google.com/file/d/1FXvdBHODgtzlvZA-NKmX7hxDRLdQG5fc/view?usp=sharing" 
+                className="group bg-gray-950 text-white font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black">
+                    Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
+                </Link>
                 <Link href = "https://www.linkedin.com/in/kersharul/"
-                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full">
-                    <FaLinkedin/>
+                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    <FaLinkedin className="opacity-60"/>
                 </Link>
                 <Link href = "https://github.com/Koops0"
-                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full">
-                    <FaGithubSquare/>
+                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    <FaGithubSquare className="opacity-60"/>
                 </Link>
             </motion.div>
         </section>
