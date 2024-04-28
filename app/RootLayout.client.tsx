@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <>
       <div ref={myRef} className="vanta-container fixed top-0 left-0 w-full h-full z-[-1]" />
-      <div className="relative">
+      <div className="relative overflow-x-hidden">
         {children}
       </div>
     </>
