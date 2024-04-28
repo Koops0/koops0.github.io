@@ -40,22 +40,23 @@ export default function Intro(){
             </motion.p>
             <motion.div className="flex flex-col sm:flex-row justify-center gap-2 transform translate-x-64 -translate-y-14"
             initial={{opacity:0, x:0, y:0}}
-            animate={{opacity:1, x:256, y:-56}}>
+            animate={{opacity:1, x:256, y:-56}}
+            transition={{delay:0.1}}>
                 <Link href = "#contact"
-                className="group bg-white text-gray-950 font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
-                    Contact Me <BsArrowDown className="opacity-60 group-hover:translate-y-1 transition"/>
+                className="group bg-white bg-opacity-60 text-gray-950 font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    Contact Me <BsArrowDown className="group-hover:translate-y-1 transition"/>
                 </Link>
                 <Link href="https://drive.google.com/file/d/1FXvdBHODgtzlvZA-NKmX7hxDRLdQG5fc/view?usp=sharing" 
-                className="group bg-gray-950 text-white font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black">
-                    Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
+                className="group bg-gray-950 bg-opacity-60 text-white font-inter px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black">
+                    Resume <HiDownload className="group-hover:translate-y-1 transition"/>
                 </Link>
                 <Link href = "https://www.linkedin.com/in/kersharul/"
-                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
-                    <FaLinkedin className="opacity-60"/>
+                className="bg-white bg-opacity-60 text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    <FaLinkedin/>
                 </Link>
                 <Link href = "https://github.com/Koops0"
-                className="bg-white text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
-                    <FaGithubSquare className="opacity-60"/>
+                className="bg-white bg-opacity-60 text-gray-950 font-inter p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50">
+                    <FaGithubSquare/>
                 </Link>
             </motion.div>
         </section>
