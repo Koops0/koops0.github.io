@@ -69,8 +69,8 @@ export const projectsData = [
   {
     title: "TekkenAI",
     description:
-      "I'm currently planning the overall design of this project, but this will be an application that will help players improve their Tekken skills via computer vision.",
-    tags: ["Python", "OpenCV"],
+      "I'm currently working on this project, but this will be a bot that can play Tekken via computer vision.",
+    tags: ["C++", "Python", "OpenCV"],
     //imageUrl:
   },
   {
@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: "GPSXE - Go PlayStation Emulator",
     description:
-      "An emulator that can play PlayStation games, built with Go. Currently working on the GPU and audio emulation.",
+      "An emulator that can play PlayStation games, built with Go. Currently on hold, but will work on the GPU and audio emulation.",
     tags: ["Go", "OpenGL"],
     //imageUrl:
   },
@@ -111,7 +111,7 @@ export const projectsData = [
   {
     title: "EDANBA",
     description:
-      "An exploratory data analysis about NBA players in the 2022-2023 season.",
+      "An exploratory data analysis about NBA players in the 2022-2023 season. There will be another one for the 2023-2024 season once there is a dataset for that.",
     tags: ["Jupyter Notebook", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],
     //imageUrl:
   },
