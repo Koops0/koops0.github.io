@@ -10,7 +10,7 @@ import {HiDownload} from 'react-icons/hi';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithubSquare} from "react-icons/fa";
 
-const isSmallScreen = window.innerWidth < 640;
+const isSmallScreen = typeof window !== 'undefined' && window.innerWidth < 640;
 const animateProps = isSmallScreen ? {opacity:1, x:0, y:0} : {opacity:1, x:256, y:-56};
 
 export default function Intro(){

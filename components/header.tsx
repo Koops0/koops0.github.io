@@ -22,7 +22,7 @@ export default function Header() {
       >
         <ul
           className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 
-          text-[0.9 rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5 lg:w-[30rem] lg:text-[1.1rem]"
+          text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-10 lg:w-[30rem] lg:text-[1.1rem]"
         >
           {links.map((link) => (
             <motion.li

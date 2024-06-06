@@ -70,35 +70,40 @@ export const projectsData = [
     title: "TekkenAI",
     description:
       "I'm currently working on this project, but this will be a bot that can play Tekken via computer vision.",
-    tags: ["C++", "Python", "OpenCV"],
+    tags: ["C++", "Python", "OpenCV", "PyTorch", "YOLO"],
+    link: "https://github.com/Koops0/TekkenAIPublic"
     //imageUrl:
   },
   {
-    title: "Aero Copilot",
+    title: "Aero Copilot - 2023 Space Apps G.F.H.M.",
     description:
-      "A document processing system backed by AI that streamlines and corrects technical documents. Winner of the Toronto NASA Space Apps Challenge 2023 and a Global Finalist Honorable Mention.",
-    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "Amazon Web Services", "OpenAI"],
+      "An AI system for streamlining technical documents.",
+    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "AWS", "OpenAI"],
+    link: "https://github.com/Koops0/Aero-Copilot"
     //imageUrl:
   },
   {
     title: "ChessHub",
     description:
       "A public web app that allows players to play chess online, play against a CPU and solve daily puzzles.",
-      tags: ["HTML", "CSS", "JavaScript", "Java", "Google Cloud Platform"],
+    tags: ["HTML", "CSS", "JavaScript", "Java", "Google Cloud"],
+    link: "https://github.com/mujtabach2/chess-hub"
     //imageUrl:
   },
   {
-    title: "GPSXE - Go PlayStation Emulator",
+    title: "GPSXE",
     description:
       "An emulator that can play PlayStation games, built with Go. Currently on hold, but will work on the GPU and audio emulation.",
     tags: ["Go", "OpenGL"],
+    link: "https://github.com/Koops0/GPSXE"
     //imageUrl:
   },
   {
     title: "TalkHub",
     description:
-      "A spam detector that uses Naive Bayes to classify emails as spam or not spam. Achieved 90% accuracy on the test set.",
+      "A chat application that incorporates WebSockets for seamless configuration. Users can create chat rooms and send messages to each other.",
     tags: ["HTML", "CSS", "JavaScript", "Java"],
+    link: "https://github.com/Koops0/Talkhub"
     //imageUrl:
   },
   {
@@ -106,13 +111,23 @@ export const projectsData = [
     description:
       "A spam detector that uses Naive Bayes to classify emails as spam or not spam. Achieved 90% accuracy on the test set.",
     tags: ["HTML", "CSS", "JavaScript", "Java"],
+    link: "https://github.com/Koops0/Spam-Detector"
     //imageUrl:
   },
   {
-    title: "EDANBA",
+    title: "Robot in 3 Days 2024 - Crescendo",
     description:
-      "An exploratory data analysis about NBA players in the 2022-2023 season. There will be another one for the 2023-2024 season once there is a dataset for that.",
-    tags: ["Jupyter Notebook", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],
+      "A robot that can participate in the 2024 FRC game, Crescendo, built with Java.",
+    tags: ["Java", "WPILib"],
+    link: "https://github.com/otri3d/Crescendo2024"
+    //imageUrl:
+  },
+  {
+    title: "Exploratory Data Analysis of the NBA",
+    description:
+      "An exploratory data analysis about NBA players in the 2022-2023 season.",
+    tags: ["Jupyter", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],
+    link: "https://github.com/Koops0/EDANBA"
     //imageUrl:
   },
   {
@@ -120,8 +135,9 @@ export const projectsData = [
     description:
       "A CRUD application that allows players to look at Terraria weapons and their stats.",
     tags: ["Java"],
+    link: "https://github.com/Koops0/Terraria-Item-Guru"
     //imageUrl:
-  },
+  }
 ] as const;
 
 export const skillsData = [
