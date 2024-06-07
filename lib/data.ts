@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineComputer } from "react-icons/md";
+import { FaRobot } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
 import { AiFillCode } from "react-icons/ai";
 
@@ -51,9 +52,9 @@ export const experiencesData = [
     title: "Robotics Programming Team Member",
     location: "Oshawa, ON",
     description:
-      "I'm also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
-    icon: React.createElement(FaHandsHelping),
-    date: "2023 - present",
+      "I was also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
+    icon: React.createElement(FaRobot),
+    date: "2023 - 2024",
   },
   {
     title: "Mentor",
@@ -123,7 +124,7 @@ export const projectsData = [
     //imageUrl:
   },
   {
-    title: "Exploratory Data Analysis of the NBA",
+    title: "NBA Data Analysis",
     description:
       "An exploratory data analysis about NBA players in the 2022-2023 season.",
     tags: ["Jupyter", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],

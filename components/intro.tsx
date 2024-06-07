@@ -3,6 +3,7 @@
 import React from "react";
 import Image from 'next/image';
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 import Link from "next/link";
 import {BsArrowDown} from 'react-icons/bs';
@@ -14,8 +15,9 @@ const isSmallScreen = typeof window !== 'undefined' && window.innerWidth < 640;
 const animateProps = isSmallScreen ? {opacity:1, x:0, y:0} : {opacity:1, x:256, y:-56};
 
 export default function Intro(){
+    const { ref } = useSectionInView("Home", 0.5);
     return (
-        <section className="overflow-hidden">
+        <section ref={ref} id="home" className="overflow-hidden">
             <div className='flex items-center justify-center'>
                 <div className = "relative">
                     <motion.div
