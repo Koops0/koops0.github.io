@@ -4,6 +4,17 @@ import { FaRobot } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
 import { AiFillCode } from "react-icons/ai";
 
+import t8Img from "@/public/t8.jpg";
+import outputImg from "@/public/output.png";
+import chessImg from "@/public/Chess.jpg";
+import EMUImg from "@/public/EMUWHITE.png";
+import titleImg from "@/public/TitlePage.png";
+import ssImg from "@/public/screenshot.png";
+import codeImg from "@/public/code.png";
+import chartImg from "@/public/chart.jpg";
+import terrariaImg from "@/public/terraria.jpg";
+
+
 export const links = [
   {
     name: "Home",
@@ -60,7 +71,7 @@ export const experiencesData = [
     title: "Mentor",
     location: "Toronto, ON",
     description:
-      "I also mentor students on how to code and build projects during my spare time.",
+      "I also mentor people on how to code and what techniques one should apply. For example, I taught a student how to build a CRUD app using Java and MySQL, as well as talking about data structures in full detail.",
     icon: React.createElement(FaHandsHelping),
     date: "2023 - present",
   },
@@ -72,93 +83,125 @@ export const projectsData = [
     description:
       "I'm currently working on this project, but this will be a bot that can play Tekken via computer vision.",
     tags: ["C++", "Python", "OpenCV", "PyTorch", "YOLO"],
-    link: "https://github.com/Koops0/TekkenAIPublic"
-    //imageUrl:
+    link: "https://github.com/Koops0/TekkenAIPublic",
+    imageUrl: t8Img,
   },
   {
     title: "Aero Copilot - 2023 Space Apps G.F.H.M.",
     description:
       "An AI system for streamlining technical documents.",
-    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "AWS", "OpenAI"],
-    link: "https://github.com/Koops0/Aero-Copilot"
-    //imageUrl:
+    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "AWS", "Claude"],
+    link: "https://github.com/Koops0/Aero-Copilot",
+    imageUrl: outputImg,
   },
   {
     title: "ChessHub",
     description:
       "A public web app that allows players to play chess online, play against a CPU and solve daily puzzles.",
     tags: ["HTML", "CSS", "JavaScript", "Java", "Google Cloud"],
-    link: "https://github.com/mujtabach2/chess-hub"
-    //imageUrl:
+    link: "https://github.com/mujtabach2/chess-hub",
+    imageUrl: chessImg,
   },
   {
     title: "GPSXE",
     description:
       "An emulator that can play PlayStation games, built with Go. Currently on hold, but will work on the GPU and audio emulation.",
     tags: ["Go", "OpenGL"],
-    link: "https://github.com/Koops0/GPSXE"
-    //imageUrl:
+    link: "https://github.com/Koops0/GPSXE",
+    imageUrl: EMUImg,
   },
   {
     title: "TalkHub",
     description:
       "A chat application that incorporates WebSockets for seamless configuration. Users can create chat rooms and send messages to each other.",
     tags: ["HTML", "CSS", "JavaScript", "Java"],
-    link: "https://github.com/Koops0/Talkhub"
-    //imageUrl:
+    link: "https://github.com/Koops0/Talkhub",
+    imageUrl: titleImg,
   },
   {
     title: "Spam Detector",
     description:
       "A spam detector that uses Naive Bayes to classify emails as spam or not spam. Achieved 90% accuracy on the test set.",
     tags: ["HTML", "CSS", "JavaScript", "Java"],
-    link: "https://github.com/Koops0/Spam-Detector"
-    //imageUrl:
+    link: "https://github.com/Koops0/Spam-Detector",
+    imageUrl: ssImg,
   },
   {
     title: "Robot in 3 Days 2024 - Crescendo",
     description:
       "A robot that can participate in the 2024 FRC game, Crescendo, built with Java.",
     tags: ["Java", "WPILib"],
-    link: "https://github.com/otri3d/Crescendo2024"
-    //imageUrl:
+    link: "https://github.com/otri3d/Crescendo2024",
+    imageUrl: codeImg,
   },
   {
     title: "NBA Data Analysis",
     description:
       "An exploratory data analysis about NBA players in the 2022-2023 season.",
     tags: ["Jupyter", "Python", "NumPy", "pandas", "Matplotlib", "Seaborn"],
-    link: "https://github.com/Koops0/EDANBA"
-    //imageUrl:
+    link: "https://github.com/Koops0/EDANBA",
+    imageUrl: chartImg,
   },
   {
     title: "Terraria Item Guru",
     description:
       "A CRUD application that allows players to look at Terraria weapons and their stats.",
     tags: ["Java"],
-    link: "https://github.com/Koops0/Terraria-Item-Guru"
-    //imageUrl:
+    link: "https://github.com/Koops0/Terraria-Item-Guru",
+    imageUrl: terrariaImg,
   }
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "C++",
+  "C",
+  "Java",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Go",
+  "Rust",
+  "Ruby",
+  "Assembly Language",
+  "OpenCV",
+  "TensorFlow",
+  "Keras",
+  "PyTorch",
   "React",
+  "Flutter",
+  "NumPy",
+  "SciPy",
+  "pandas",
+  "Matplotlib",
+  "Seaborn",
+  "Jupyter",
+  "Scikit-Learn",
+  "OpenGL",
+  "OpenAI",
+  "Claude",
+  "YOLOv8",
+  "Linux",
+  "Netlify",
+  "Vercel",
   "Next.js",
   "Node.js",
   "Git",
+  "Amazon Web Services",
+  "Google Cloud Platform",
+  "Django",
+  "Flask",
+  "WordPress",
+  "Nvidia Omniverse", 
+  "XGBoost", 
+  "spaCy", 
+  "PySpark",
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Figma",
+  "Roboflow",
 ] as const;
