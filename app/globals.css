@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Inter';
+    src: url("./InterVariable.ttf");
+}
+
+@font-face {
+    font-family: 'Excelorate';
+    src: url("./Excelorate-Font.otf");
+}
