@@ -1,14 +1,14 @@
 "use client"
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import HALO from 'vanta/dist/vanta.halo.min.js';
+import FOG from 'vanta/dist/vanta.fog.min.js';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const myRef = useRef(null);
 
   useEffect(() => {
     if (!myRef.current) throw Error("divRef is not assigned");
-    const vantaEffect = HALO({
+    const vantaEffect = FOG({
       THREE,
       el: myRef.current,
       mouseControls: true,
@@ -16,12 +16,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      baseColor: 0xa3272c,
-      backgroundColor: 0x9aaa9f,
-      amplitudeFactor: 3.00,
-      xOffset: 0.00,
-      yOffset: 0.00,
-      size: 3.00
+      highlightColor: 0xffffff,
+      midtoneColor: 0x0,
+      lowlightColor: 0x0,
+      baseColor: 0x0,
+      blurFactor: 0.90,
+      zoom: 0.5,
+      speed: 5.00
     });
     return () => {
       if (vantaEffect) vantaEffect.destroy();
@@ -29,8 +30,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, []);
 
   return (
-    <div ref={myRef} className="vanta-container" style={{ width: '100vw', height: '100vh' }}>
-      {children}
-    </div>
+    <>
+      <div ref={myRef} className="vanta-container fixed top-0 left-0 w-full h-full z-[-1]" />
+      <div className="relative overflow-x-hidden">
+        {children}
+      </div>
+    </>
   );
 }
