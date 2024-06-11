@@ -38,3 +38,6 @@ next-env.d.ts
 #fonts
 *.ttf
 *.otf
+
+#.env
+.env
