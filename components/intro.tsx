@@ -11,7 +11,6 @@ import {BsArrowDown} from 'react-icons/bs';
 import {HiDownload} from 'react-icons/hi';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithubSquare} from "react-icons/fa";
-import { useMediaQuery } from 'react-responsive'
 
 export default function Intro(){
     const { ref } = useSectionInView("Home", 0.5);
