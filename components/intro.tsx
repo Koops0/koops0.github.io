@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -15,7 +15,24 @@ import { useMediaQuery } from 'react-responsive'
 
 export default function Intro(){
     const { ref } = useSectionInView("Home", 0.5);
-    const isSmallScreen = useMediaQuery({ query: '(max-width: 640px)' })
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setIsSmallScreen(window.innerWidth <= 640);
+
+            const handleResize = () => {
+                setIsSmallScreen(window.innerWidth <= 640);
+            };
+
+            window.addEventListener('resize', handleResize);
+
+            return () => {
+                window.removeEventListener('resize', handleResize);
+            };
+        }
+    }, []);
+
     return (
         <section ref={ref} id="home" className={`overflow-hidden ${isSmallScreen ? 'mt-20' : ''}`}>
             <div className='flex items-center justify-center'>
@@ -40,12 +57,12 @@ export default function Intro(){
             </motion.p>
             <motion.p className='m1-auto text-center text-xl sm:text-2xl md:text-4xl text-white font-inter font-bold mt-4'
             initial={{opacity:0, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 150 : 100}}
-            animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? -20 : -80}}>
+            animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? -20 : -65}}>
                 My name is Kershan Arulneswaran.
             </motion.p>
             <motion.div className="flex flex-col sm:flex-row justify-center gap-2 transform translate-x-64 -translate-y-14"
                         initial={{opacity:0, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 150 : 100}}
-                        animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 0 : -70}}
+                        animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 0 : -55}}
                         transition={{delay:0.1}}>
                 <div className="flex justify-center gap-2">
                 <Link href = "#contact"
