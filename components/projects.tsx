@@ -15,7 +15,7 @@ export default function Projects() {
     animate={{opacity:1, y:0}}
     transition={{delay:0.175}}>
       <SectionHeading>Projects</SectionHeading>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0.5">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
