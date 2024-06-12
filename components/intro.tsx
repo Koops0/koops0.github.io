@@ -38,9 +38,9 @@ export default function Intro(){
             animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 0 : -70}}>
                 HELLO WORLD.
             </motion.p>
-            <motion.p className='m1-auto text-center text-xl sm:text-2xl md:text-[2.5rem] text-white font-inter font-bold mt-4'
+            <motion.p className='m1-auto text-center text-xl sm:text-2xl md:text-4xl text-white font-inter font-bold mt-4'
             initial={{opacity:0, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 150 : 100}}
-            animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? -20 : -90}}>
+            animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? -20 : -80}}>
                 My name is Kershan Arulneswaran.
             </motion.p>
             <motion.div className="flex flex-col sm:flex-row justify-center gap-2 transform translate-x-64 -translate-y-14"
