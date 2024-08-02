@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Aero Copilot - 2023 Space Apps G.F.H.M.",
     description:
       "An AI system for streamlining technical documents.",
-    tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "AWS", "Claude"],
+    tags: ["Next.js", "Python", "Flask", "AWS", "Claude"],
     link: "https://github.com/Koops0/Aero-Copilot",
     imageUrl: outputImg,
   },
@@ -114,7 +114,7 @@ export const projectsData = [
   {
     title: "GPSXE",
     description:
-      "An emulator that can play PlayStation games, built with Go. Currently on hold, but will work on the GPU and audio emulation.",
+      "An emulator that can play PlayStation games, built with Go",
     tags: ["Go", "OpenGL"],
     link: "https://github.com/Koops0/GPSXE",
     imageUrl: EMUImg,
