@@ -13,6 +13,7 @@ import ssImg from "@/public/screenshot.png";
 import codeImg from "@/public/code.png";
 import chartImg from "@/public/chart.jpg";
 import terrariaImg from "@/public/terraria.jpg";
+import redacted from "@/public/redacted.jpg";
 
 
 export const links = [
@@ -93,6 +94,14 @@ export const projectsData = [
     tags: ["TypeScript", "Python", "JavaScript", "CSS", "Next.js", "Flask", "AWS", "Claude"],
     link: "https://github.com/Koops0/Aero-Copilot",
     imageUrl: outputImg,
+  },
+  {
+    title: "REDACTED - Hack the 6ix 2024",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    tags: ["magna aliqua"],
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    imageUrl: redacted,
   },
   {
     title: "ChessHub",
@@ -189,14 +198,55 @@ export const skillsData = [
   "Django",
   "Flask",
   "WordPress",
-  "Nvidia Omniverse", 
   "XGBoost", 
   "spaCy", 
   "PySpark",
   "Tailwind",
   "MongoDB",
   "PostgreSQL",
-  "Framer Motion",
   "Figma",
+  "WPILib",
+  "STM32",
+  "Raspberry Pi",
   "Roboflow",
+] as const;
+
+export const skillsData2 = [
+  {
+    title: "Programming Languages",
+    skills: [
+      "Python",
+      "C++",
+      "C",
+      "Java",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Go",
+      "Rust",
+      "Ruby",
+    ],
+  },
+  {
+    title: "Libraries, APIs & Frameworks",
+    skills: [
+      "OpenCV",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "React",
+      "NumPy",
+      "SciPy",
+      "pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Jupyter",
+      "Scikit-Learn",
+      "OpenGL",
+      "OpenAI",
+      "Claude",
+      "YOLOv8",
+    ],
+  },
 ] as const;
