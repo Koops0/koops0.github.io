@@ -38,7 +38,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 SOURCES:
-VantaJS
-THREE
-Inter 4.0
-Excelorate
+* [Vanta.js](https://www.vantajs.com/)
+* [Three.js](https://threejs.org/)
+* [Inter 4.0](https://rsms.me/inter/)
+* [Excelorate](https://jvill.gumroad.com/l/mInjl)
