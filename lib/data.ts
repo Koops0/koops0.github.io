@@ -13,7 +13,7 @@ import ssImg from "@/public/screenshot.png";
 import codeImg from "@/public/code.png";
 import chartImg from "@/public/chart.jpg";
 import terrariaImg from "@/public/terraria.jpg";
-import redacted from "@/public/redacted.jpg";
+import trash from "@/public/trash.jpg";
 
 
 export const links = [
@@ -96,12 +96,12 @@ export const projectsData = [
     imageUrl: outputImg,
   },
   {
-    title: "REDACTED - Hack the 6ix 2024",
+    title: "TrashTalk - HT6 2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-    tags: ["magna aliqua"],
-    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    imageUrl: redacted,
+      "The bin that talks trash when you shoot bricks and talks nice when you make it in.",
+    tags: ["OpenCV", "Arduino", "Python", "Next.js", "Express", "MongoDB",],
+    link: "https://github.com/Koops0/TrashTalk",
+    imageUrl: trash,
   },
   {
     title: "ChessHub",
@@ -114,7 +114,7 @@ export const projectsData = [
   {
     title: "GPSXE",
     description:
-      "An emulator that can play PlayStation games, built with Go",
+      "An emulator that can play your curated PlayStation 1 classics, built with Go and OpenGL.",
     tags: ["Go", "OpenGL"],
     link: "https://github.com/Koops0/GPSXE",
     imageUrl: EMUImg,
@@ -195,6 +195,8 @@ export const skillsData = [
   "Git",
   "Amazon Web Services",
   "Google Cloud Platform",
+  "Roboflow",
+  "Express",
   "Django",
   "Flask",
   "WordPress",
@@ -208,7 +210,7 @@ export const skillsData = [
   "WPILib",
   "STM32",
   "Raspberry Pi",
-  "Roboflow",
+  "Arduino",
 ] as const;
 
 export const skillsData2 = [
