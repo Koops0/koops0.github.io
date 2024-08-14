@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 
 import Link from "next/link";
-import Modal from './Modal';
+import Modal from './modal';
 import Contact from './contact';
 import {BsArrowDown} from 'react-icons/bs';
 import {HiDownload} from 'react-icons/hi';
