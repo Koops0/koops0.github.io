@@ -1,4 +1,5 @@
 import Intro from '@/components/intro'
+import Footer from '@/components/footer'
 import SectionDivider from '@/components/section-divider'
 import About from '@/components/about'
 import Image from 'next/image'
@@ -9,14 +10,11 @@ import Contact from '@/components/contact'
 
 export default function Home() {
   return (
-    <main className="">
-      <Intro />
-      <SectionDivider />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
-    </main>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow bg-custom-image bg-cover bg-center">
+        <Intro />
+      </main>
+      <Footer />
+    </div>
   )
 }

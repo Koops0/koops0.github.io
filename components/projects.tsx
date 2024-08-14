@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <motion.section className="text-center leading-8 mb-20" id="projects" ref={ref}
     initial={{opacity:0, y:100}}
-    animate={{opacity:1, y:0}}
+    animate={{opacity:1, y:-300}}
     transition={{delay:0.175}}>
       <SectionHeading>Projects</SectionHeading>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0.5">

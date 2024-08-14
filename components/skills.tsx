@@ -24,13 +24,13 @@ export default function Skills() {
     return(
         <motion.section className="text-center leading-8 mb-20" id="skills" ref={ref}
         initial={{opacity:0, y:100}}
-        animate={{opacity:1, y:0}}
+        animate={{opacity:1, y:-300}}
         transition={{delay:0.175}}>
             <SectionHeading>Skills</SectionHeading>
             <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 mx-16">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="borderBlack rounded-xl px-5 py-3 bg-white/10 text-white/80 font-inter font-semibold"
+            className="borderBlack rounded-xl px-5 py-3 bg-white/10 text-white/80 font-alias text-xl font-semibold"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"

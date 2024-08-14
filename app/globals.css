@@ -11,3 +11,33 @@
     font-family: 'Excelorate';
     src: url("./Excelorate-Font.otf");
 }
+
+@font-face {
+    font-family: 'Talk';
+    src: url("./ZTTalk-Bold.otf");
+    
+}
+@font-face{
+    font-family: 'Endgraph';
+    src: url("./Endgraph.ttf");
+}
+
+@font-face{
+    font-family: 'Bros';
+    src: url("./ZTBrosOskon90s-Regular.otf");
+}
+
+@font-face{
+    font-family: 'Aurix';
+    src: url("./Aurixfree-Regular.otf");
+}
+
+@font-face{
+    font-family: 'Alias';
+    src: url("./Alias-Regular.otf");
+}
+
+@font-face{
+    font-family: 'Piedmont';
+    src: url("./Piedmont-Regular.otf");
+}

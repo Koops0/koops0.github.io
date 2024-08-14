@@ -17,14 +17,12 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] sm:h-[2500px] md:h-[1250px] lg:h-[625px] xl:h-[312.5px]`}>
-        <RootLayout>
-        <ActiveSectionContextProvider>
-          <Header />
-          {children}
-          <Footer />
+      <body className={`${inter.className} bg-gray-50 text-gray-950 relative`}>
+          <ActiveSectionContextProvider>
+            <Header />
+            <main className="flex-grow">{children}</main>
+
           </ActiveSectionContextProvider>
-        </RootLayout>
       </body>
     </html>
   );

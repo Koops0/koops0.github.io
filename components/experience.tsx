@@ -17,7 +17,7 @@ export default function Experience() {
   return (
     <motion.section className="text-center leading-8 mb-20" id="experience" ref={ref}
     initial={{opacity:0, y:100}}
-    animate={{opacity:1, y:0}}
+    animate={{opacity:1, y:-300}}
     transition={{delay:0.175}}>
       <SectionHeading>Experience</SectionHeading>
       <VerticalTimeline lineColor="gray">
@@ -37,16 +37,16 @@ export default function Experience() {
                 borderRight: "0.4rem solid #9ca3af"
               }}
               date={item.date}
-              dateClassName="font-inter font-extrabold text-white"
+              dateClassName=" font-alias text-xl font-extrabold text-white"
               icon={item.icon}
               iconStyle={{
                 background: "white",
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-inter font-semibold capitalize text-white">{item.title}</h3>
-              <p className="font-inter font-normal !mt-0 text-white/70">{item.location}</p>
-              <p className="font-inter !mt-1 !font-normal text-white/70">
+              <h3 className="font-alias text-xl font-semibold capitalize text-white">{item.title}</h3>
+              <p className="font-alias text-xl font-normal !mt-0 text-white/70">{item.location}</p>
+              <p className="font-alias text-xl !mt-1 !font-normal text-white/70">
                 {item.description}
               </p>
             </VerticalTimelineElement>
