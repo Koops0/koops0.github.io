@@ -100,7 +100,7 @@ export const projectsData = [
   {
     title: "[REDACTED] - Hack the North 2024",
     description:
-      "One of the projects of all time.",
+      "One of the projects of all time. No cap. Reveal: Soon...",
     tags: ["We're", "No", "Strangers", "To", "Love", "!",],
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrl: redacted,
