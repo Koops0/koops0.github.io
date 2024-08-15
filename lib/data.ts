@@ -14,6 +14,8 @@ import codeImg from "@/public/code.png";
 import chartImg from "@/public/chart.jpg";
 import terrariaImg from "@/public/terraria.jpg";
 import trash from "@/public/trash.jpg";
+import redacted from "@/public/redacted.jpg";
+
 
 
 export const links = [
@@ -94,6 +96,14 @@ export const projectsData = [
     tags: ["Next.js", "Python", "Flask", "AWS", "Claude"],
     link: "https://github.com/Koops0/Aero-Copilot",
     imageUrl: outputImg,
+  },
+  {
+    title: "[REDACTED] - Hack the North 2024",
+    description:
+      "One of the projects of all time.",
+    tags: ["We're", "No", "Strangers", "To", "Love", "!",],
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    imageUrl: redacted,
   },
   {
     title: "TrashTalk - HT6 2024",
