@@ -221,6 +221,7 @@ export const skillsData = [
   "Django",
   "Flask",
   "WordPress",
+  "Apache Spark",
   "Tailwind",
   "WPILib",
   "STM32",
