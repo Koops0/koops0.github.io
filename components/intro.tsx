@@ -64,7 +64,7 @@ export default function Intro(){
                 >
                   Contact Me <BsArrowDown className="group-hover:translate-y-1 transition" />
                 </button>
-                <Link href="https://drive.google.com/file/d/1y53pLRKB6lXpBrqveCbhOjl8K0FjnPP1/view?usp=sharing" 
+                <Link href="https://drive.google.com/file/d/1VqJfVo07jbmAR5F7p2Jtiw4tK3udKH9n/view?usp=sharing" 
                       className="group bg-gray-950 bg-opacity-60 text-white font-alias text-xl px-2 sm:px-7 py-2 sm:py-3 flex items-center jestify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black w-24 h-12 sm:w-auto sm:h-auto">
                   Resume <HiDownload className="group-hover:translate-y-1 transition"/>
                 </Link>
