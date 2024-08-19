@@ -68,7 +68,7 @@ export default function Intro(){
                       className="group bg-white bg-opacity-60 text-gray-950 font-inter px-2 sm:px-7 py-2 sm:py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-50 w-24 h-12 sm:w-auto sm:h-auto">
                     Contact Me <BsArrowDown className="group-hover:translate-y-1 transition"/>
                 </Link>
-                <Link href="https://drive.google.com/file/d/1y53pLRKB6lXpBrqveCbhOjl8K0FjnPP1/view?usp=sharing" 
+                <Link href="https://drive.google.com/file/d/1LpQ6o61_NGlfqJvuqPcLwMy7T9PRQ0il/view?usp=sharing" 
                       className="group bg-gray-950 bg-opacity-60 text-white font-inter px-2 sm:px-7 py-2 sm:py-3 flex items-center jestify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black w-24 h-12 sm:w-auto sm:h-auto">
                     Resume <HiDownload className="group-hover:translate-y-1 transition"/>
                 </Link>
