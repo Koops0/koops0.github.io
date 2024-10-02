@@ -73,20 +73,20 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Lead Web Developer - OTU Hack Station",
-    location: "Oshawa, ON",
-    description:
-      "I was also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
-    icon: React.createElement(FaLaptop),
-    date: "2024 - Present",
-  },
-  {
     title: "Mentor",
     location: "Toronto, ON",
     description:
       "I also mentor people on how to code and what techniques one should apply. For example, I taught a student how to build a CRUD app using Java and MySQL, as well as talking about data structures in full detail.",
     icon: React.createElement(FaHandsHelping),
     date: "2023 - present",
+  },
+  {
+    title: "Lead Web Developer - Ontario Tech Hack Station",
+    location: "Oshawa, ON",
+    description:
+      "Currently, I'm a lead web developer for Ontario Tech Hack Station, where I'm responsible for creating and maintaining the website, which was built on Laravel and Vue and adding new features.",
+    icon: React.createElement(FaLaptop),
+    date: "2024 - Present",
   },
 ] as const;
 
