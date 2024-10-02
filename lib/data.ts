@@ -3,6 +3,7 @@ import { MdOutlineComputer } from "react-icons/md";
 import { FaRobot } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
 import { AiFillCode } from "react-icons/ai";
+import { FaLaptop } from "react-icons/fa";
 
 import t8Img from "@/public/t8.jpg";
 import outputImg from "@/public/output.png";
@@ -15,6 +16,7 @@ import chartImg from "@/public/chart.jpg";
 import terrariaImg from "@/public/terraria.jpg";
 import trash from "@/public/trash.jpg";
 import redacted from "@/public/redacted.jpg";
+import ss from "@/public/ss.png";
 
 
 
@@ -71,6 +73,14 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
+    title: "Lead Web Developer - OTU Hack Station",
+    location: "Oshawa, ON",
+    description:
+      "I was also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
+    icon: React.createElement(FaLaptop),
+    date: "2024 - Present",
+  },
+  {
     title: "Mentor",
     location: "Toronto, ON",
     description:
@@ -98,12 +108,20 @@ export const projectsData = [
     imageUrl: outputImg,
   },
   {
-    title: "[REDACTED] - Hack the North 2024",
+    title: "[REDACTED] - Hack the Valley 2024",
     description:
-      "One of the projects of all time. No cap. Reveal: Soon...",
-    tags: ["We're", "No", "Strangers", "To", "Love", "!",],
+      "One of the best things ever made. Probably.",
+    tags: ["Coming Soon..."],
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrl: redacted,
+  },
+  {
+    title: "SymphonicSlates - Hack the North 2024",
+    description:
+      "A web app that converts your favourite image into a photo through GenAI.",
+    tags: ["Next.js", "Convex", "Python", "Gradio", "Stable Diffusion"],
+    link: "https://github.com/Koops0/SymphonicSlates",
+    imageUrl: ss,
   },
   {
     title: "TrashTalk - HT6 2024",
@@ -183,6 +201,7 @@ export const skillsData = [
   "Go",
   "Rust",
   "SQL",
+  "PHP",
   "OpenCV",
   "TensorFlow",
   "Keras",
@@ -217,6 +236,9 @@ export const skillsData = [
   "Roboflow",
   "Figma",
   "Next.js",
+  "Laravel",
+  "Vue",
+  "Convex",
   "Express",
   "Django",
   "Flask",
