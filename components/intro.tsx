@@ -49,7 +49,7 @@ export default function Intro(){
                     </motion.div>
                 </div>
             </div>
-            <motion.p className='m1-auto text-center text-2xl sm:text-4xl md:text-[5rem] text-white font-excelorate font-extrabold mt-4'
+            <motion.p className='m1-auto text-center text-2xl sm:text-4xl md:text-[5rem] text-white font-elysium font-extrabold mt-4'
             initial={{opacity:0, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 150 : 100}}
             animate={{opacity:1, x: isSmallScreen ? 0 : 250, y: isSmallScreen ? 0 : -70}}>
                 HELLO WORLD.

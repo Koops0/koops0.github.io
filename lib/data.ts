@@ -16,6 +16,7 @@ import chartImg from "@/public/chart.jpg";
 import terrariaImg from "@/public/terraria.jpg";
 import trash from "@/public/trash.jpg";
 import redacted from "@/public/redacted.jpg";
+import temp from "@/public/temp.jpg";
 import ss from "@/public/ss.png";
 
 
@@ -68,9 +69,9 @@ export const experiencesData = [
     title: "Robotics Programming Team Member",
     location: "Oshawa, ON",
     description:
-      "I was also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
+      "I'm also part of our university's robotics programming team, where we compete in RoboMaster, as well as building a robot in 3 days. We use C and Java to program our robots.",
     icon: React.createElement(FaRobot),
-    date: "2023 - 2024",
+    date: "2023 - Present",
   },
   {
     title: "Mentor",
@@ -84,7 +85,7 @@ export const experiencesData = [
     title: "Lead Web Developer - Ontario Tech Hack Station",
     location: "Oshawa, ON",
     description:
-      "Currently, I'm a lead web developer for Ontario Tech Hack Station, where I'm responsible for creating and maintaining the website, which was built on Laravel and Vue and adding new features.",
+      "Currently, I'm a lead web developer for Ontario Tech Hack Station, where I'm responsible for creating and maintaining the website and admin portal.",
     icon: React.createElement(FaLaptop),
     date: "2024 - Present",
   },
@@ -108,10 +109,26 @@ export const projectsData = [
     imageUrl: outputImg,
   },
   {
-    title: "[REDACTED] - Hack the Valley 2024",
+    title: "Gain+ - HTV 2024 Winner",
     description:
-      "One of the best things ever made. Probably.",
-    tags: ["Coming Soon..."],
+      "A fitness website where one can create personalized workout and meal plans based on photos. Won Best Databricks Hack.",
+    tags: ["Roboflow", "LLaMA", "React", "Firebase"],
+    link: "https://github.com/AyanASaiyed/GainPlus",
+    imageUrl: redacted,
+  },
+  {
+    title: "My First Mobile App.",
+    description:
+      "Coming very soon.",
+    tags: ["React Native", "TensorFlow"],
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    imageUrl: temp,
+  },
+  {
+    title: "????? - Meta LLaMA Hackathon Toronto",
+    description:
+      "Coming very soon.",
+    tags: ["LLaMA"],
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrl: redacted,
   },

@@ -41,4 +41,4 @@ SOURCES:
 * [Vanta.js](https://www.vantajs.com/)
 * [Three.js](https://threejs.org/)
 * [Inter 4.0](https://rsms.me/inter/)
-* [Excelorate](https://jvill.gumroad.com/l/mInjl)
+* [Elysium](https://floweiral.gumroad.com/l/elysium)

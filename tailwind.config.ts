@@ -16,7 +16,7 @@ const config: Config = {
       },
       fontFamily:{
         inter: ['Inter', 'sans-serif'],
-        excelorate: ['Excelorate', 'sans-serif'],
+        elysium: ['elysium', 'sans-serif'],
       }
     },
   },
