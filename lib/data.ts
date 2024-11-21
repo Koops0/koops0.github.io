@@ -17,6 +17,7 @@ import terrariaImg from "@/public/terraria.jpg";
 import trash from "@/public/trash.jpg";
 import redacted from "@/public/redacted.jpg";
 import temp from "@/public/temp.jpg";
+import drawing from "@/public/drawing.png";
 import ss from "@/public/ss.png";
 
 
@@ -114,7 +115,7 @@ export const projectsData = [
       "A fitness website where one can create personalized workout and meal plans based on photos. Won Best Databricks Hack.",
     tags: ["Roboflow", "LLaMA", "React", "Firebase"],
     link: "https://github.com/AyanASaiyed/GainPlus",
-    imageUrl: redacted,
+    imageUrl: drawing,
   },
   {
     title: "My First Mobile App.",
